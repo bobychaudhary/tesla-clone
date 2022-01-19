@@ -8,7 +8,11 @@
 
 body {
   width: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden; 
+  
+}
+a{
+  text-decoration: none;
 }
 
 @keyframes animateDown {

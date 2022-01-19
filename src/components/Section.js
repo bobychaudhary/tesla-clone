@@ -17,8 +17,8 @@ const Section = ({
       <Buttons>
         <ButtonGroup>
           <LeftButton>{leftBtnText}</LeftButton>
-          {rightButtonText && <RightButton>{rightButtonText}</RightButton>} //if
-          rightButtonText is null, it will not render
+          {rightButtonText && <RightButton>{rightButtonText}</RightButton>}
+          {/* if rightButtonText is null, it will not render */}
         </ButtonGroup>
         <DownArrow src="./images/down-arrow.svg" />
       </Buttons>
@@ -27,22 +27,21 @@ const Section = ({
 };
 
 export default Section;
+const Wrap = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; //vertical
+  align-items: center; //horizontal
+  margin: 8px;
+  background-image: ${(props) => `url("/images/${props.bgImage}")`};
+`;
 
-const Wrap = styled`
-    width:100vw;
-    height:100vh;
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between; //vertical
-    align-items: //horizontal
-    margin: 8px;
-    background-image: ${(props) => `url("/images/${props.bgImage}")`}
-    `;
-
-const ItemTest = styled.div`
+const ItemText = styled.div`
   padding-top: 15vh;
   text-align: center;
 `;
@@ -68,6 +67,7 @@ const LeftButton = styled.div`
   text-transform: uppercase;
   font-size: 12px;
   cursor: pointer;
+  margin: 8px;
 `;
 
 const RightButton = styled(LeftButton)`
@@ -79,6 +79,7 @@ const RightButton = styled(LeftButton)`
 const DownArrow = styled.img`
   margin-top: 20px;
   height: 40px;
+  margin-left: 45%;
   animation: animateDown infinite 1.5s;
 `;
 

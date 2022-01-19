@@ -5,9 +5,9 @@ const Home = () => {
   return (
     <div>
       <Section
-        title="Tesla Model S"
+        title="Tesla Model 3"
         description=" Order Online for Touchless Delivery"
-        backgroundImg="model-s.jpg"
+        backgroundImg="model-3.jpg"
         leftBtnText="Custom order"
         rightButtonText="Existing Inventory"
       />
@@ -19,9 +19,9 @@ const Home = () => {
         rightButtonText="Existing Inventory"
       />
       <Section
-        title="Tesla Model 3"
+        title="Tesla Model S"
         description=" Order Online for Touchless Delivery"
-        backgroundImg="model-3.jpg"
+        backgroundImg="model-S.jpg"
         leftBtnText="Custom order"
         rightButtonText="Existing Inventory"
       />
