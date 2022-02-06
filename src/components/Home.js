@@ -7,7 +7,7 @@ const Home = () => {
       <Section
         title="Tesla Model 3"
         description=" Order Online for Touchless Delivery"
-        backgroundImg="model-3.jpg"
+        backgroundImg="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tesla.com%2Fmodel3&psig=AOvVaw3HTGwG2Vvq4Wr0AY3ttAwA&ust=1644241287172000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMjw6qCa6_UCFQAAAAAdAAAAABAD"
         leftBtnText="Custom order"
         rightButtonText="Existing Inventory"
       />

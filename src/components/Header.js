@@ -120,5 +120,14 @@ position: fixed;
 right:0;
 background: white
 width:300px;
-
-`
+z-index: 16;
+list-style: none;
+padding: 20px;
+display: flex;
+flex-direction: column;
+text-align: start;
+li {
+  padding: 15px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+`;

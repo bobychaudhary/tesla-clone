@@ -25,7 +25,7 @@ const Section = ({
             {/* if rightButtonText is null, it will not render */}
           </ButtonGroup>
         </Fade>
-        <DownArrow src="./images/down-arrow.svg" />
+        <DownArrow src="./images/down-arrow.svg " alt="^" />
       </Buttons>
     </Wrap>
   );
